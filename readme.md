@@ -1,4 +1,4 @@
-markdown# PDF Document Analyzer
+# PDF Document Analyzer
 
 A Python application that extracts and analyzes sections from PDF documents using semantic similarity matching. The tool processes PDF collections based on specific personas and tasks, ranking content by relevance using sentence transformers and cosine similarity.
 
@@ -47,13 +47,13 @@ spacy
 The application expects the following directory structure:
 
 ```
-input/
-├── collection1/
-│   ├── challenge1b_input.json
-│   └── PDFs/
-│       ├── document1.pdf
-│       └── document2.pdf
-└── collection2/
+
+Collection 1/
+   ├── challenge1b_input.json
+   └── PDFs/
+      ├── document1.pdf
+       └── document2.pdf
+Collection 2/
     ├── challenge1b_input.json
     └── PDFs/
         └── document3.pdf
